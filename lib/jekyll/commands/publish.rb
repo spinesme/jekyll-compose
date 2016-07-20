@@ -52,7 +52,7 @@ module Jekyll
 
       def to
         date_stamp = params.date.strftime '%Y-%m-%d'
-        "_posts/#{date_stamp}-#{params.name}"
+        "blog/_posts/#{date_stamp}-#{params.name}"
       end
     end
 
