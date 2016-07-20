@@ -45,7 +45,7 @@ module Jekyll
       end
 
       def to
-        "_drafts/#{params.name}"
+        "blog/_drafts/#{params.name}"
       end
     end
 
