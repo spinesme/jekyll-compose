@@ -8,7 +8,7 @@ require "jekyll-compose/file_info"
 module Jekyll
   module Compose
     DEFAULT_TYPE = "md"
-    DEFAULT_LAYOUT = "post"
+    DEFAULT_LAYOUT = "blog_post"
     DEFAULT_LAYOUT_PAGE = "page"
   end
 end
