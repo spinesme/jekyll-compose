@@ -36,7 +36,7 @@ module Jekyll
         end
 
         def path
-          "_drafts/#{file_name}"
+          "blog/_drafts/#{file_name}"
         end
       end
     end
